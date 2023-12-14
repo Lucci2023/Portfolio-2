@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:200,300,300i,400,700&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class ="user">
+                        <div class="user__avatar">
+                            <img class="myphoto" src="./images/photo.jpg" alt="my_photo">
+                        </div>
+                        <div class="user__content">
+                            <div class="user__name">Губарев Иван</div>
+                            <div class="user__prof">Начинающий IT-специалист</div>
+                        </div>
+                    </div>
+                    <nav class="nav" id="nav">
+                        <a class = "nav__link" href="https://vk.com/august2023" target="_blank">Обо мне</a>
+                        <a class = "nav__link" href="#ban__res">Резюме</a>
+                        <a class = "nav__link" href="#ban__con">Контакты</a>
+                    </nav>
+                    <button class="burger" type="button" id="navToggle">
+                        <img class="burger__icon" src="./images/burger.png" alt="menu">
+                    </button>
+                </div>
+            </div>
+        </header>
+        <section class="intro">
+            <div class="container">
+                <div class="intro__inner">
+                    <div class="intro__content">
+                        <h2 class="intro__text">q, я выпускник Донского государственного университета по специальности "Информационная безопасность телекоммуникационных систем". <br> Во время поиска работы понял, что мне не хватает компетенций, поэтому решил записаться на обучение в университет "Синергия", чтобы овладеть навыками верстки CSS, программирования на JavaScript и испытать себя в другой сфере. <br> Знаю, что это лишь начало, но данное направление меня очень заинтересовало и я не намерен его бросать. </h2>
+                    </div>
+                    <div class="intro__photo">
+                        <img class="susge" src="./images/susge.jpg" alt="Susge">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my__projects">
+            <div class="container">
+                <h1 class="project__text">Мои работы<br></h1>
+                <div class="project__box">
+                    <div class="project__col">
+                        <div class="image__box">
+                            <a class="project__image" href="https://www.figma.com/file/v28PViRnVamVLLZy6LHu9j/Untitled?type=design&amp;node-id=0%3A1&amp;mode=design&amp;t=w7TFkRdjaBe5oHzo-1" target="_blank"><img src="./images/maket.jpg" alt="Макет Figma" width="300px" height="300px"></a>
+                            <div class="image__content">
+                                Макет Figma
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="project__col">
+                        <div class="image__box">
+                            <a class="project__image" href="https://github.com/Lucci2023/First_project" target="_blank"><img src="./images/verst.jpg" alt="Первая верстка" width="300px" height="300px"></a>
+                            <div class="image__content">
+                                Первая верстка сайта
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="project__col">
+                        <div class="image__box">
+                            <a class="project__image" href="https://github.com/Lucci2023/calculator_lection" target="_blank"><img src="./images/calc.jpg" alt="Калькулятор" width="300px" height="300px"></a>
+                            <div class="image__content">
+                                Калькулятор
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class ="cont__box">
+                    <img class="cont__box__image" src="./images/tbc.jpg" alt="ToBeContinued" width="200px" height="50px">
+                </div>
+            </div>
+        </section>
+        <div class="banners">
+            <div class="container">
+                <h2 class="banner__text">Полезные ссылки<br></h2>
+                <div class="banner__box">
+                    <div class="banner__col">
+                        <div class="banner__image">
+                            <a class="banner__link" href="https://github.com/Lucci2023" target="_blank"><img src="./images/Github-link.jpg" alt="Github-ссылка" width="300px" height="300px"></a>
+                        </div>
+                    </div>
+                    <div class="banner__col">
+                        <div class="banner__image">
+                            <a class="banner__link" id="ban__res" href="./files/Резюме.pdf" target="_blank"><img src="./images/resume-link.jpg" alt="Резюме" width="300px" height="300px"></a>
+                        </div>
+                    </div>
+                    <div class="banner__col">
+                        <div class="banner__image">
+                            <a class="banner__link" id="ban__con" href="https://t.me/augustion2023" target="_blank"><img src="./images/Contacts-link.jpg" alt="Контакт-ссылка" width="300px" height="300px"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
